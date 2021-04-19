@@ -1,0 +1,36 @@
+.art-dev-container{
+    /* background: rgb(87,17,87);
+    background: linear-gradient(193deg, rgba(87,17,87,1) 0%, rgba(16,81,79,1) 100%); */
+    background: rgb(103,61,148);
+    background: linear-gradient(29deg, rgba(103,61,148,1) 0%, rgba(247,172,130,1) 100%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.art-dev-avatar{
+    width: 500px;
+}
+.button {
+    width: 60px;
+    text-align: center;
+    background: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid #fff;
+    margin: 10px;
+}
+button a {
+    text-decoration: none;
+    color: #fff;
+}
+@media(max-width:520px){
+    .art-dev-avatar{
+        width: 90%;
+    }
+}

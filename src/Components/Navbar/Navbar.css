@@ -1,0 +1,18 @@
+.navbar-container{
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar-container{
+    margin: 0;
+    padding: 0;
+}
+.navbar-container li{
+    margin: 0 10px;
+    list-style: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.navbar-container li a {
+    text-decoration: none;
+    color: #fff;
+}
