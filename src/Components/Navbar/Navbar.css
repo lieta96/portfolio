@@ -1,4 +1,17 @@
+.navbar{
+    position: fixed;
+    top:-50px;
+    height: 50px;
+    width: 100vw;
+    transition: top 0.3s;
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    align-items: center;
+}
 .navbar-container{
+ 
+    width: 100%;
     display: flex;
     justify-content: flex-end;
 }
@@ -15,4 +28,9 @@
 .navbar-container li a {
     text-decoration: none;
     color: #fff;
+}
+.active{
+    background-color:#fff;
+    color:blueviolet;
+    top:0;
 }
