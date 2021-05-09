@@ -2,8 +2,15 @@ import React from 'react';
 import Avatar from '../../avatar.png';
 import './MainSection.css';
 import Navbar from '../Navbar/Navbar';
+import Typed from 'typed.js';
 
 function MainSection (){
+    // var options = {
+    //     strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
+    //     typeSpeed: 40
+    // };
+
+    // var typed = new Typed('.element', options);
 
     let TxtType = function(el, toRotate, period) {
         this.toRotate = toRotate;
@@ -74,7 +81,7 @@ function MainSection (){
                         
                 <div className= 'personal-description'>
                     <h1>Julieta García</h1>
-                    <span class="typewrite" data-period="2000" data-type='[ "Frontend Developer", "Y cuando no, artista."]'>
+                    <span className='element' > {}
                     </span>
                 </div>
             </div>

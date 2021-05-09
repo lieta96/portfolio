@@ -1,9 +1,8 @@
-@import url ('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
 @import ulr ('https://cdn.jsdelivr.net/gh/devicons/devicon@v2.11.0/devicon.min.css');
 .about-me-section-container{
     width: 100vw;
     min-height: 100vh;
-    background-color: rgba(247,172,130,1) ;
+    background-color: rgb(255, 211, 185) ;
 }
 .personal-photo{
     width: 500px;
@@ -27,7 +26,7 @@
     font-size: 20px;
 }
 .personal-photo-container{
-    border-radius: 50%;
+    border-radius: 10px;
     overflow: hidden;
     min-width: 400px;
     max-width: 400px;
@@ -44,16 +43,47 @@ box-shadow: -2px 2px 12px -1px rgba(61,43,61,1);
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    color:#fff;
+    max-width: 1040px;
+    margin: auto;
+}
+.skills-container i {
+    font-size: 80px;
+
+}
+.skills-container span{
+    font-size: 18px;
 }
 .skill-logo-container{
-    width: 80px;
     margin: 30px;
-    
+    padding: 20px;
+    border-radius: 10px;
 }
-/*NO FUNCIONA :(*/
+.js-logo{
+    background-color: rgb(217, 226, 91);
+}
+.css-logo{
+    background-color: rgb(120, 156, 221);
+}
+.wp-logo{
+    background-color: #4ba7cc;
+}
+.html-logo{
+    background-color: rgb(240, 161, 72);
+}
+.react-logo{
+    background-color: rgb(57, 156, 156);
+}
+.ps-logo{
+    background-color: #001d34;
+}
+.ai-logo{
+    background-color: #310000;
+}
+
 .skill-logo-container :hover{
     animation: bounce;
-    animation-duration: 2s;
+    animation-duration: 1s;
 }
 @media (max-width:769px){
     .about-me-container{

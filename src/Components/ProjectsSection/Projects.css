@@ -1,0 +1,8 @@
+.projects-container{
+    display: flex;
+    max-width:1040px
+}
+.project-container{
+    height: 100px;
+    width: 100px;
+}

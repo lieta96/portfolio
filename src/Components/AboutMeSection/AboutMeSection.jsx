@@ -14,7 +14,7 @@ function AboutMeSection (){
                 
                 <div className='about-me-text'>
                     <h2>Hola mundo!</h2>
-                    <p>Soy Julieta, desarrolladora Frontend en proceso. Me entusiasman tanto la lkógicacomoel diseño, y querer combinarlos fue lo que me motivó a descubirir el desarrollo web.</p>
+                    <p>Soy Julieta, desarrolladora Frontend en proceso. Me entusiasman tanto la lógica como el diseño, y querer combinar ambos fue lo que me motivó a descubrir el mundo del desarrollo web.</p>
                     <p>Soy estudiante de matemática en la UBA y además me dedico al arte.
                         Creo que el trabajo en equipo siempre es enriquecedor</p>
                 </div>
@@ -22,7 +22,14 @@ function AboutMeSection (){
             <h3 className='skills-title'> Skills</h3>
             <div className='skills-container'>
                 
-                {skillsLogos.map((skill)=>{return (<div className='skill-logo-container'>{skill.svgLogo}</div>)} )}
+                {skillsLogos.map((skill)=>{return (
+                    <div className={`${skill.className} skill-logo-container`}>
+                       <div >{skill.svgLogo}</div> 
+                <span>{skill.name}</span>
+               
+                    </div>
+                 )}
+                )} 
             </div>
         </div>
     )
